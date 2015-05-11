@@ -20,7 +20,7 @@ Y2 = polyval(P2,xx);
 P3 = polyfit(X,Y,6);
 Y3 = polyval(P3,xx);
 
-%作图
+%作图和比较
 g1 = plot(X,Y);
 set(g1,'Linestyle','*','color','m','Linewidth',1.5);
 hold on;
