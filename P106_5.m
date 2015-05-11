@@ -35,7 +35,7 @@ set(g4,'Linestyle','-','color','g','Linewidth',1.5);
 l = legend([g1,g2,g3,g4],'数据点','三次曲线拟合','四次曲线拟合','六次曲线拟合');
 set(l,'Location','Best');
 
-%结论
+%结论:
 %六次曲线拟合效果比三次和四次好得多
 
 
