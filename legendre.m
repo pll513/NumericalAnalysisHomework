@@ -1,3 +1,4 @@
+%legendre.m
 function R = legendre(f,n)
 syms x;
 syms S;

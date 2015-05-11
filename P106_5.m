@@ -1,4 +1,5 @@
-% ×÷ÒµÈý
+%P106_5.m
+
 clear;clc;
 syms a;syms b;syms c;
 syms d;syms x;syms y;

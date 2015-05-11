@@ -1,3 +1,4 @@
+%lagrange_interpolation.m
 % 实现拉格朗日插值函数
 % X表示自变量所对应矩阵
 % Y表示因变量所对应矩阵

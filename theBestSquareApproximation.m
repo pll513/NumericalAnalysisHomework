@@ -2,6 +2,7 @@
 %最佳n次平方逼近函数
 %返回值B为基函数对应系数
 %返回值P为最佳平方多项式
+
 function [B,P] = theBestSquareApproximation(f,phi,rho,interval)
 a = interval(1);
 b = interval(2);

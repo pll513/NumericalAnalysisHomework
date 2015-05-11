@@ -1,3 +1,5 @@
+%P106_3.m
+
 format long;
 syms x;
 f = sin(pi*x/2);
