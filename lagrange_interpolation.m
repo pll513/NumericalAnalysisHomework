@@ -1,5 +1,3 @@
-%lagrange_interpolation.m
-
 % 实现拉格朗日插值函数
 % X表示自变量所对应矩阵
 % Y表示因变量所对应矩阵
@@ -25,4 +23,4 @@ end
 % 把L(x)展开成多项式系数矩阵
 % 例: (x+1)*(x-2)*x+3 的计算结果为
 %     [1, -1, -2, 3]
-fp = sym2poly(L);
+fp = eval(sym2poly(L));
