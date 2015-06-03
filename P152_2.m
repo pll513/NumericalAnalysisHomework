@@ -1,12 +1,12 @@
 % 2013141463103 浦岸峰
-% 第四次作业
+% 第五次作业
 % p152 2
 
 clear;clc;format rat;
 
 %产生可能大小为1到10的随机正定矩阵A和右端向量b
 n = ceil(10*rand(1));
-P = rand(n,n);
+P = 100*rand(n,n);
 while (det(P)==0)
    P = rand(n,n); 
 end
